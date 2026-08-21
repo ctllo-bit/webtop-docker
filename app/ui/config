@@ -1,12 +1,12 @@
 {
     ".url": {
         "webtop-docker.Application": {
-            "title": "{display_name}",
+            "title": "Webtop",
             "icon": "images/icon_{0}.png",
             "type": "url",
-            "protocol": "http",
-            "port": "{port}",
-            "url": "/{url-path}",
+            "protocol": "https",
+            "port": "3001",
+            "url": "/",
             "allUsers": false
         }
     }

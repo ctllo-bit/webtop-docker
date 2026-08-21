@@ -1,9 +1,20 @@
 version: "3.8"
 
 services:
-  webapp:
-    image: examples/web
+  webtop:
+    image: lscr.io/linuxserver/webtop:latest
+    container_name: webtop
+    restart: unless-stopped
+    security_opt:
+      - seccomp:unconfined
     ports:
-      - "{host_port}:{container_port}"
+      - "3001:3001"
     volumes:
-      - "/var/apps/webtop-docker/shares/webtop-docker/data:/data"
+      - "/var/apps/webtop-docker/shares/webtop-docker/data:/config"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Shanghai
+      - TITLE=Webtop
+    shm_size: "1gb"
+    network_mode: bridge
