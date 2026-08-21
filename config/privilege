@@ -1,0 +1,8 @@
+{
+    "defaults":
+    {
+        "run-as": "package"
+    },
+    "username": "docker-webtop-docker",
+    "groupname": "docker-webtop-docker"
+}

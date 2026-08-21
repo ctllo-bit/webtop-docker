@@ -1,0 +1,20 @@
+{
+  "docker-project": {
+    "projects": [
+      {
+        "name": "webtop-docker",
+        "path": "docker"
+      }
+    ]
+  },
+  "data-share": {
+    "shares": [
+      {
+        "name": "webtop-docker"
+      },
+      {
+        "name": "webtop-docker/data"
+      }
+    ]
+  }
+}
