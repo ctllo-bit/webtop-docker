@@ -3,6 +3,6 @@
     {
         "run-as": "package"
     },
-    "username": "docker-webtop-docker",
-    "groupname": "docker-webtop-docker"
+    "username": "docker-webtop",
+    "groupname": "docker-webtop"
 }

@@ -10,7 +10,7 @@ services:
     ports:
       - "3001:3001"
     volumes:
-      - "/var/apps/webtop-docker/shares/webtop-docker/data:/config"
+      - "/var/apps/webtop-docker/shares/Webtop/data:/config"
     environment:
       - PUID=1000
       - PGID=1000
